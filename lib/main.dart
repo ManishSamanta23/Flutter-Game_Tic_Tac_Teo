@@ -106,7 +106,7 @@ class _TicTacToeGameState extends State<TicTacToeGame> {
             )
           else if (!board.contains(''))
             Text(
-              'It\'s a Draw!',
+              'It\'s a Draw Match!',
               style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,backgroundColor: Colors.yellow),
             ),
           SizedBox(height: 20),
